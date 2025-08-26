@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAP Consultores - Faro en la Administración Pública</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container d-flex align-items-center">
+                <!-- Sidebar Toggle Button -->
+            <button class="sidebar-toggle me-3" id="sidebarToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="Pap-favicon.png" alt="PAP" width="70" height="50" class="me-2">
+                <span style="color: #333; font-size: 1.2rem; margin-left: 5px;">Consultores</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contáctanos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sidebar Overlay -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <div class="sidebar-title">Menú Avanzado</div>
+            <div class="sidebar-subtitle">Opciones administrativas</div>
+        </div>
+        
+        <div class="sidebar-section">
+            <div class="sidebar-section-title">Administración Pública</div>
+            <ul class="sidebar-nav">
+                <li><a href="#gestion-publica"><i class="fas fa-building"></i>Gestión Pública</a></li>
+                <li><a href="#normativas"><i class="fas fa-gavel"></i>Normativas y Reglamentos</a></li>
+                <li><a href="#transparencia"><i class="fas fa-eye"></i>Transparencia</a></li>
+                <li><a href="#auditoria"><i class="fas fa-search"></i>Auditoría</a></li>
+            </ul>
+        </div>
+
+        <div class="sidebar-section">
+            <div class="sidebar-section-title">Consultoría</div>
+            <ul class="sidebar-nav">
+                <li><a href="#estrategica"><i class="fas fa-chess"></i>Consultoría Estratégica</a></li>
+                <li><a href="#procesos"><i class="fas fa-cogs"></i>Optimización de Procesos</a></li>
+                <li><a href="#capacitacion"><i class="fas fa-graduation-cap"></i>Capacitación</a></li>
+                <li><a href="#desarrollo"><i class="fas fa-chart-line"></i>Desarrollo Institucional</a></li>
+            </ul>
+        </div>
+
+        <div class="sidebar-section">
+            <div class="sidebar-section-title">Recursos</div>
+            <ul class="sidebar-nav">
+                <li><a href="#documentos"><i class="fas fa-file-alt"></i>Documentos</a></li>
+                <li><a href="#legislacion"><i class="fas fa-balance-scale"></i>Marco Legislativo</a></li>
+                <li><a href="#casos"><i class="fas fa-briefcase"></i>Casos de Estudio</a></li>
+                <li><a href="#biblioteca"><i class="fas fa-book"></i>Biblioteca Digital</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="bg-wrapper">
+        <!-- Efecto de luz del faro -->
+        <div class="lighthouse-beam"></div>
+        
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="hero-content">
+                            <h1 class="hero-logo">PAP</h1>
+                            <h2 class="hero-subtitle">Consultores</h2>
+                            <p class="hero-description">Faro en la Administración Pública</p>
+                            <a href="#servicios" class="btn cta-button">Conócenos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="porque-nosotros-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="section-title">¿Porque nosotros?</h2>
+                        <p class="section-subtitle">
+                            Optimizamos cada proceso de contratación pública con criterios de eficiencia, eficacia y cumplimiento normativo, garantizando transparencia y orientación a resultados concretos.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="row card-container">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="service-card">
+                            <div class="card-overlay"></div>
+                            <div class="card-image eficiencia-bg"></div>
+                            <div class="card-content">
+                                <h3 class="card-title">Eficiencia</h3>
+                                <p class="card-description">
+                                    Optimizamos cada proceso de contratación pública con criterios de eficiencia, eficacia y cumplimiento normativo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="service-card">
+                            <div class="card-overlay"></div>
+                            <div class="card-image recursos-bg"></div>
+                            <div class="card-content">
+                                <h3 class="card-title">Recursos públicos</h3>
+                                <p class="card-description">
+                                    Los recursos públicos son sagrados: garantizamos su ejecución responsable, transparente y orientada a resultados concretos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="service-card">
+                            <div class="card-overlay"></div>
+                            <div class="card-image talento-bg"></div>
+                            <div class="card-content">
+                                <h3 class="card-title">Talento humano</h3>
+                                <p class="card-description">
+                                    Contamos con profesionales altamente calificados, especializados y subespecializados en asesoría técnica y estratégica para el sector público.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

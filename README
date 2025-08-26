@@ -1,0 +1,117 @@
+# Documentación - PAP Consultores
+
+## Descripción General
+Sitio web institucional para PAP Consultores, empresa especializada en administración pública. El diseño presenta un concepto visual de "faro" como guía en la administración pública, con efectos visuales modernos y navegación intuitiva.
+
+## Estructura del Proyecto
+
+### Archivos Principales
+- `index.html` - Página principal
+- `style.css` - Estilos CSS principales
+- `main.js` - JavaScript para interactividad
+- `Pap-favicon.png` - Logo de la empresa
+- `Bg-fondo.jpg` - Imagen de fondo principal
+
+## Secciones del Sitio
+
+### 1. Navegación Principal
+**Ubicación**: Header fijo superior
+**Características**:
+- Navbar transparente con blur effect
+- Logo PAP Consultores con icono
+- Menú responsive con hamburger
+- Enlaces: Inicio, Servicios, Contáctanos
+- Botón de sidebar avanzado
+
+### 2. Sidebar (Menú Avanzado)
+**Funcionalidad**: Menú lateral deslizante
+**Categorías**:
+- **Administración Pública**: Gestión Pública, Normativas, Transparencia, Auditoría
+- **Consultoría**: Estratégica, Optimización de Procesos, Capacitación, Desarrollo Institucional
+- **Recursos**: Documentos, Marco Legislativo, Casos de Estudio, Biblioteca Digital
+
+### 3. Hero Section (Sección Principal)
+**Elementos**:
+- Logo "PAP" prominente con efectos de glow
+- Subtítulo "Consultores"
+- Tagline: "Faro en la Administración Pública"
+- Botón CTA "Conócenos"
+- Fondo con imagen de faro y efectos de luz animados
+
+### 4. Sección "¿Por qué nosotros?"
+**Contenido**: Tres pilares fundamentales
+**Tarjetas**:
+1. **Eficiencia**: Optimización de procesos con criterios normativos
+2. **Recursos Públicos**: Ejecución responsable y transparente
+3. **Talento Humano**: Profesionales especializados en sector público
+
+## Elementos de Diseño
+
+### Efectos Visuales
+- **Lighthouse Beam**: Efecto de luz de faro animado
+- **Glassmorphism**: Elementos con transparencia y blur
+- **Animaciones**: Glow effects, hover transitions, fadeInUp
+- **Gradientes**: Colores corporativos (#FF4444 como principal)
+
+### Responsive Design
+- **Desktop**: Layout completo con sidebar
+- **Tablet**: Adaptación de tarjetas y navegación
+- **Mobile**: Hamburger menu, elementos apilados
+
+### Tipografías
+- **Cardo**: Para el logo principal
+- **Open Sans**: Para títulos y contenido
+- **Ubuntu**: Para elementos de navegación
+
+## Funcionalidades JavaScript
+
+### Sidebar Toggle
+- Apertura/cierre del menú lateral
+- Overlay para cerrar al hacer clic fuera
+- Transiciones suaves
+
+### Navegación Suave
+- Scroll suave entre secciones
+- Enlaces internos con anclas
+
+### Efectos Interactivos
+- Hover effects en tarjetas y botones
+- Animaciones CSS activadas por JavaScript
+- Estados activos en navegación
+
+## Paleta de Colores
+
+### Colores Principales
+- **Rojo Corporativo**: #FF4444
+- **Variante Roja**: #ff6b6b
+- **Fondos Oscuros**: #1a1a1a, #2c2c2c
+- **Textos**: #333 (oscuro), rgba(255,255,255,0.9) (claro)
+
+### Transparencias
+- Elementos glassmorphism: rgba(255,255,255,0.05-0.15)
+- Overlays: rgba(0,0,0,0.3-0.6)
+
+## Consideraciones Técnicas
+
+### Dependencias Externas
+- Bootstrap 5.3.0 (CSS y JS)
+- Font Awesome 6.4.0 (iconos)
+- Google Fonts (Cardo, Ubuntu, Open Sans)
+
+### Optimizaciones
+- Imágenes optimizadas desde Unsplash
+- CSS con prefijos para compatibilidad
+- Efectos CSS3 con fallbacks
+
+### Accesibilidad
+- Navegación por teclado
+- Contraste adecuado de colores
+- Textos alternativos en imágenes
+- Estructura semántica HTML5
+
+## Próximas Mejoras Sugeridas
+- Sección de contacto completa
+- Página de servicios detallada
+- Formularios de contacto
+- Integración con redes sociales
+- Blog o sección de noticias
