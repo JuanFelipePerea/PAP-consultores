@@ -440,14 +440,14 @@ body {
     }
 }
 
-.porque-nosotros-section {
+.why-us-section {
     background: linear-gradient(135deg, #1a1a1a 0%, #2c2c2c 50%, #1a1a1a 100%);
     padding: 100px 0;
     position: relative;
     overflow: hidden;
 }
 
-.porque-nosotros-section::before {
+.why-us-section::before {
     content: '';
     position: absolute;
     top: 0;
@@ -619,7 +619,7 @@ body {
 }
 
 @media (max-width: 768px) {
-    .porque-nosotros-section {
+    .why-us-section {
         padding: 60px 0;
     }
     
