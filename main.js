@@ -42,3 +42,31 @@ window.addEventListener('scroll', function() {
                 overlay.classList.remove('active');
             });
         });
+
+// Carrousel section
+document.addEventListener('DOMContentLoaded', function() {
+            const carousel = document.querySelector('#projectsCarousel');
+            const carouselInstance = new bootstrap.Carousel(carousel, {
+                interval: 6000,
+                wrap: true,
+                touch: true
+            });
+
+            // Pause on hover
+            carousel.addEventListener('mouseenter', function() {
+                carouselInstance.pause();
+            });
+
+            carousel.addEventListener('mouseleave', function() {
+                carouselInstance.cycle();
+            });
+
+            // Add smooth scroll behavior for project links
+            document.querySelectorAll('.project-link').forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    // Here you would handle the navigation to the actual project page
+                    console.log('Navigate to project:', this.closest('.project-card').querySelector('.project-title').textContent);
+                });
+            });
+        });
