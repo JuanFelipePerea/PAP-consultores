@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PAP Consultores - Faro en la Administración Pública</title>
+    <link rel="shortcut icon" href="./img/Pap-favicon.png" type="image/x-icon">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +22,7 @@
                 <i class="fas fa-bars"></i>
             </button>
             <a class="navbar-brand" href="#">
-                <img src="Pap-favicon.png" alt="PAP" width="70" height="50" class="me-2">
+                <img src="./img/Pap-favicon.png" alt="PAP" width="70" height="50" class="me-2">
                 <span style="color: #333; font-size: 1.2rem; margin-left: 5px;">Consultores</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -159,7 +160,201 @@
         </section>
     </section>
 
+    <!-- Pap introduction section -->
+    <section class="team-services-section">
+        <div class="container">
+            <!-- Team Member -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10 col-md-8">
+                    <div class="card team-card shadow-sm rounded-4 p-4">
+                        <div class="card-body text-center">
+                            <div class="team-avatar">
+                                <img src="./img/Foto-doc-PedroPerea.png" 
+                                    alt="Foto del Dr. Pedro Perea" 
+                                    class="team-photo">
+                            </div>
+                            <h3 class="team-name">Pedro Abelardo Perea</h3>
+                            <p class="team-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consequat ex nec leo sagittis, vitae placerat ante varius. Nam et fringilla arcu. In eu urna vel lacus dictum pretium vel a tellus. Suspendisse tempus ipsum ut faucibus condimentum. Vestibulum luctus, risus eu ultricies auctor, dui enim aliquet lorem, sit amet semper enim eros eget ipsum. Sed porttitor metus ut sollicitudin auctor. Curabitur bibendum vulputate lorem, ut egestas sapien volutpat ac. Fusce sit amet risus ligula. Nulla nunc erat, mattis ac scelerisque nec, venenatis ultrices lacus. Donec scelerisque odio venenatis placerat mollis. Donec tortor sapien, ornare scelerisque viverra ac, interdum ac leo. Cras tincidunt tristique mauris, rhoncus auctor turpis ultricies at.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Services Section -->
+            <div class="row services-section">
+                <div class="col-12">
+                    <h2 class="services-title text-center">Nuestros servicios</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="accordion service-accordion" id="servicesAccordion">
+                        <!-- Institutional Diagnosis -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" 
+                                        data-bs-toggle="collapse" data-bs-target="#diagnosis" 
+                                        aria-expanded="false" aria-controls="diagnosis">
+                                    <i class="fas fa-chart-line service-icon"></i>
+                                    Diagnóstico Institucional
+                                </button>
+                            </h2>
+                            <div id="diagnosis" class="accordion-collapse collapse" 
+                                 data-bs-parent="#servicesAccordion">
+                                <div class="accordion-body">
+                                    <strong>Especialistas en Análisis Organizacional</strong><br>
+                                    Realizamos evaluaciones exhaustivas de la estructura, procesos y capacidades institucionales para identificar oportunidades de mejora y optimización en la gestión pública.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Strategic Solutions -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" 
+                                        data-bs-toggle="collapse" data-bs-target="#strategic" 
+                                        aria-expanded="false" aria-controls="strategic">
+                                    <i class="fas fa-chess service-icon"></i>
+                                    Soluciones Estratégicas
+                                </button>
+                            </h2>
+                            <div id="strategic" class="accordion-collapse collapse" 
+                                 data-bs-parent="#servicesAccordion">
+                                <div class="accordion-body">
+                                    <strong>Consultor en gestión pública</strong><br>
+                                    Desarrollamos estrategias personalizadas para optimizar la gestión pública, mejorando la eficiencia operacional y el cumplimiento de objetivos institucionales a través de metodologías probadas.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Technical Support -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" 
+                                        data-bs-toggle="collapse" data-bs-target="#technical" 
+                                        aria-expanded="false" aria-controls="technical">
+                                    <i class="fas fa-cogs service-icon"></i>
+                                    Acompañamiento Técnico
+                                </button>
+                            </h2>
+                            <div id="technical" class="accordion-collapse collapse" 
+                                 data-bs-parent="#servicesAccordion">
+                                <div class="accordion-body">
+                                    <strong>Consultor en gestión pública</strong><br>
+                                    Brindamos asesoría técnica especializada durante todo el proceso de implementación, asegurando que las soluciones propuestas se ejecuten de manera efectiva y sostenible.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Regulatory Advisory -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" 
+                                        data-bs-toggle="collapse" data-bs-target="#regulatory" 
+                                        aria-expanded="false" aria-controls="regulatory">
+                                    <i class="fas fa-gavel service-icon"></i>
+                                    Asesoría Normativa
+                                </button>
+                            </h2>
+                            <div id="regulatory" class="accordion-collapse collapse" 
+                                 data-bs-parent="#servicesAccordion">
+                                <div class="accordion-body">
+                                    <strong>Consultor en gestión pública</strong><br>
+                                    Proporcionamos orientación experta en el cumplimiento normativo y regulatorio, asegurando que todas las actividades se desarrollen dentro del marco legal vigente y las mejores prácticas del sector público.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="projects-section">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="section-title text-dark">¿Qué hemos hecho?</h2>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div id="projectsCarousel" class="carousel slide carousel-container" data-bs-ride="carousel" data-bs-interval="5000">
+                            <div class="carousel-inner">
+                                <!-- Project 1: CAMA -->
+                                <div class="carousel-item active">
+                                    <div class="project-card">
+                                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=800&q=80" alt="Proyecto CAMA - Grupo de trabajo" class="project-image">
+                                        <div class="project-overlay">
+                                            <h3 class="project-title">Proyecto CAMA</h3>
+                                            <p class="project-description">
+                                                Logramos construir 20 camas para 20 indígenas que presentaban incomodidades por dormir con sus suegras. Agradecemos a la comunidad SLEEPY por la colaboración y hacer esto posible.
+                                            </p>
+                                            <a href="---" class="project-link">
+                                                Ver más detalles <i class="fas fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Project 2: ARRAY -->
+                                <div class="carousel-item">
+                                    <div class="project-card">
+                                        <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=800&q=80" alt="Proyecto ARRAY - Líder indígena" class="project-image">
+                                        <div class="project-overlay">
+                                            <h3 class="project-title">Proyecto ARRAY</h3>
+                                            <p class="project-description">
+                                                En esta ocasión logramos aliarnos con una empresa de crear una presa que los depredadores no puedan atravesar, protegiendo así las comunidades locales.
+                                            </p>
+                                            <a href="---" class="project-link">
+                                                Conocer proyecto <i class="fas fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Project 3: Nueva iniciativa -->
+                                <div class="carousel-item">
+                                    <div class="project-card">
+                                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=800&q=80" alt="Proyecto INNOVA - Capacitación tecnológica" class="project-image">
+                                        <div class="project-overlay">
+                                            <h3 class="project-title">Proyecto INNOVA</h3>
+                                            <p class="project-description">
+                                                Implementamos un programa de capacitación tecnológica para 150 funcionarios públicos, modernizando los procesos administrativos y mejorando la eficiencia en el servicio ciudadano.
+                                            </p>
+                                            <a href="---" class="project-link">
+                                                Explorar resultados <i class="fas fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Controls -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+
+                            <!-- Indicators -->
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        </div>
+    </section>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
     <script src="main.js"></script>
+
 </body>
 </html>
